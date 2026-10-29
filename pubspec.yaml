@@ -1,0 +1,18 @@
+name: gisila_redis
+description: >-
+  Redis-backed stores for the gisila web framework: a shared rate-limit
+  store and a cache provider, so limits and cached values hold across
+  isolates and servers.
+version: 0.1.0
+repository: https://github.com/gumisofts/gisila_redis
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  gisila: ">=0.3.0 <0.5.0"
+  redis: ^4.1.0
+
+dev_dependencies:
+  lints: ">=3.0.0 <7.0.0"
+  test: ^1.24.0
