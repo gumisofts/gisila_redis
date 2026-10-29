@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.1.0 — 2026-10-30
 
 - `RedisRateLimitStore`: a gisila `RateLimitStore` shared by every isolate
   and server (atomic Lua token bucket on Redis's clock; fails open by
